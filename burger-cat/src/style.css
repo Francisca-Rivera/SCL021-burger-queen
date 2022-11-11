@@ -1,1 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Mono&family=Overlock&display=swap");
 
+:root {
+  --colorLogo: #f7cad0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #000;
+}
+
+h1 {
+  color: var(--colorLogo);
+  /*font-size: 2rem;*/
+}

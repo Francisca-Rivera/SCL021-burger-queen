@@ -3,7 +3,7 @@ import "./Welcome.css";
 
 export const Welcome = () => {
   return (
-    <div id="viewsWelcome">
+    <section id="viewsWelcome">
       <h1>Burger Cat's</h1>
       <picture id="logo">
         <img
@@ -12,15 +12,17 @@ export const Welcome = () => {
           alt="Logo Burger Cat´s"
         />
       </picture>
-      <button className="btnPedidos">
-        <Link to="/pedidos">Pedidos</Link>
-      </button>
-      <button className="btnCocina">
-        <Link to="/cocina">Cocina</Link>
-      </button>
+      <div id="btnsWelcome">
+        <button className="btnPedidos">
+          <Link to="/pedidos">Pedidos</Link>
+        </button>
+        <button className="btnCocina">
+          <Link to="/cocina">Cocina</Link>
+        </button>
+      </div>
       <footer>
         <p className="footer">©Copyright Francisca Rivera 2022</p>
       </footer>
-    </div>
+    </section>
   );
 };

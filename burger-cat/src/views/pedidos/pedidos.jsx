@@ -1,7 +1,7 @@
 export const Pedidos = () => {
   return (
     <div>
-      <h1>holi, soy vista pedidos!!!!</h1>
+      <h1 className="tittlePedidos">holi, soy vista pedidos!!!!</h1>
     </div>
   );
 };

@@ -3,6 +3,13 @@
 
 :root {
   --colorLogo: #f7cad0;
+  --btnPedido: #f4e285;
+  --colorBorde: #ffd100;
+  --btnCocina: #98c1d9;
+  --colorBordeC: #004e98;
+  --colorFooter: #b1a7a6;
+  --tittleWelcome: "Courgette";
+  --otherLetter: "Overlock";
 }
 * {
   margin: 0;
@@ -15,8 +22,49 @@ body {
   background-color: #000;
 }
 
+#viewsWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   color: var(--colorLogo);
+  font-size: 6rem;
+  font-family: var(--tittleWelcome);
+}
+
+#btnsWelcome {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 3%;
+  border: 20%;
+}
+
+.btnPedidos {
+  padding: 5% 10% 5% 10%;
+  border-radius: 30px 30px 30px 30px;
+  font-family: var(--otherLetter);
+  font-size: 2rem;
+  background: var(--btnPedido);
+  border-color: var(--colorBorde);
+}
+
+.btnCocina {
+  padding: 5% 10% 5% 10%;
+  border-radius: 30px 30px 30px 30px;
+  font-family: var(--otherLetter);
+  font-size: 2rem;
+  background: var(--btnCocina);
+  border-color: var(--colorBordeC);
+}
+
+.footer {
+  font-family: var(--otherLetter);
+  color: var(--colorFooter);
 }
 
 /*.App {
