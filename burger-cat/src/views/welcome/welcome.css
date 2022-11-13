@@ -53,6 +53,10 @@ h1 {
   border-color: var(--colorBorde);
 }
 
+.btnPedidos:hover {
+  background-color: #fcefb4;
+}
+
 .btnCocina {
   padding: 5% 10% 5% 10%;
   border-radius: 30px 30px 30px 30px;
@@ -60,6 +64,10 @@ h1 {
   font-size: 2rem;
   background: var(--btnCocina);
   border-color: var(--colorBordeC);
+}
+
+.btnCocina:hover {
+  background-color: #bde0fe;
 }
 
 .footer {
