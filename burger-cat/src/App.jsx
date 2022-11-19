@@ -1,4 +1,3 @@
-import React from "react";
 import { Pedidos } from "./views/pedidos/Pedidos.jsx";
 import { Welcome } from "./views/welcome/Welcome.jsx";
 import { Cocina } from "./views/cocina/Cocina.jsx";

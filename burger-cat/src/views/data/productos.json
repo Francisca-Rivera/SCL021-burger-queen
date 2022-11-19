@@ -5,28 +5,28 @@
       "name": "Americano",
       "description": "Café de grano",
       "price": "$5",
-      "image": "public/img/americano.png"
+      "image": "/img/americano.png"
     },
     {
       "id": 2,
       "name": "Latte",
       "description": "Café de grano con leche",
       "price": "$7",
-      "image": "public/img/latte.png"
+      "image": "/img/latte.png"
     },
     {
       "id": 3,
       "name": "Barros Jarpa",
       "description": "Pan de molde tostado con jamón y queso",
       "price": "$10",
-      "image": "public/img/barros-jarpa.png"
+      "image": "/img/barros-jarpa.png"
     },
     {
       "id": 4,
       "name": "Jugo de frutas natural",
       "description": "Sabores: frutilla, mango, sandia, melón, piña",
       "price": "$7",
-      "image": "public/img/jugo-frutillas.png"
+      "image": "/img/jugo-frutillas.png"
     }
   ],
 
@@ -36,14 +36,14 @@
       "name": "Hamburguesa simple",
       "description": "Hamburguesa con tomate, lechuga, pepinillos, cebolla y queso",
       "price": "$10",
-      "image": "public/img/Bueger-cat.png"
+      "image": "/img/Bueger-cat.png"
     },
     {
       "id": 2,
       "name": "Hamburguesa doble",
       "description": "Hamburguesa doble con tomate, lechuga, pepinillos, tocino, cebolla morada, queso y mayonesa",
       "price": "$15",
-      "image": "public/img/burger-doble.png"
+      "image": "/img/burger-doble.png"
     }
   ],
 
@@ -53,14 +53,14 @@
       "name": "Papas fritas",
       "description": "Papas fritas caseras con sal de mar",
       "price": "$5",
-      "image": "public/img/frites.png"
+      "image": "/img/frites.png"
     },
     {
       "id": 2,
       "name": "Nuggets de pollo",
       "description": "Nuggets de pollo con forma de dinosaurio",
       "price": "$5",
-      "image": "public/img/nugget-dino.png"
+      "image": "/img/nugget-dino.png"
     }
   ],
 
@@ -84,35 +84,35 @@
       "name": "Agua mineral 500ml",
       "description": "Agua mineral con o sin gas",
       "price": "$5",
-      "image": "public/img/agua-500.png"
+      "image": "/img/agua-500.png"
     },
     {
       "id": 2,
       "name": "Agua mineral 750ml",
       "description": "Agua mineral con o sin gas",
       "price": "$7",
-      "image": "public/img/agua-750.png"
+      "image": "/img/agua-750.png"
     },
     {
       "id": 3,
       "name": "Bebida gaseosa 500ml",
       "description": "Bebida gaseosa de diferentes sabores",
       "price": "$7",
-      "image": "public/img/kem-500.png"
+      "image": "/img/kem-500.png"
     },
     {
       "id": 4,
       "name": "Bebida energética 740ml",
       "description": "Bebida gaseosa energética",
       "price": "$10",
-      "image": "public/img/Bebida-energetica-720.png"
+      "image": "/img/Bebida-energetica-720.png"
     },
     {
       "id": 5,
       "name": "Cervezas shop",
       "description": "Variedad de cervezas tradicinales y artesanales",
       "price": "$23",
-      "image": "public/img/shopero.png"
+      "image": "/img/shopero.png"
     }
   ]
 }

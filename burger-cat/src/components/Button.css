@@ -1,0 +1,14 @@
+.buttonAgregar {
+  font-family: var(--otherLetter);
+  font-size: 1.5rem;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+  background-color: #cdb4db;
+  border-color: #9d4edd;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.buttonAgregar:hover {
+  background-color: #ea698b;
+}

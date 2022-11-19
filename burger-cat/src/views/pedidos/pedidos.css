@@ -1,0 +1,96 @@
+#navBar {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--colorFontViews);
+}
+
+h3 {
+  color: #000;
+  font-family: var(--otherLetter);
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-size: 2rem;
+}
+
+#welcomeNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: var(--colorLogo);
+  font-size: 4rem;
+  font-family: var(--tittleWelcome);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+#imgNav {
+  width: 120px;
+  height: 120px;
+}
+
+.btnBack {
+  color: var(--colorFontViews);
+  padding: 10% 20% 10% 20%;
+  border-radius: 30px 30px 30px 30px;
+  font-family: var(--otherLetter);
+  font-size: 1.5rem;
+  background: var(--colorFontBtn);
+  border-color: var(--colorBordeBack);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-width: 3px;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+#selectionTable {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-content: flex-start;
+  float: right;
+  margin-left: 10px;
+}
+
+.btnTables {
+  display: flex;
+  font-size: 1.5rem;
+  background-color: #d9d9d9;
+  border-color: #7f7f7f;
+  padding: 0 5px 0 5px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.btnTables:hover {
+  background-color: #7c616c;
+}
+
+.menuSelection {
+  display: flex;
+  font-size: 2rem;
+  border-radius: 30px 30px 0 0;
+  padding: 5px 10px 5px 10px;
+  background-color: #d1b1cb;
+  border-color: #7c616c;
+  border-width: 5px;
+}
+
+.menuSelection:hover {
+  background-color: #7c616c;
+}
+
+.containerPedidos {
+  background-color: var(--colorFontViews);
+}
