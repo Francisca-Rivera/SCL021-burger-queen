@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import data from "../views/data/productos.json";
+
+const breakfast = data.breakfast;
+const lunch = data.lunch;
 
 export const NavBar = () => {
   return (
@@ -36,12 +41,13 @@ export const SelectionTable = () => {
 };
 
 export const MenuOption = () => {
+  const [setItem] = useState([]);
   return (
     <div id="menu">
       <button
         className="menuSelection"
         onClick={() => {
-          alert("Mostrando desayuno");
+          setItem(breakfast);
         }}
       >
         Desayuno
@@ -49,7 +55,7 @@ export const MenuOption = () => {
       <button
         className="menuSelection"
         onClick={() => {
-          alert("Mostrando Almuerzo");
+          setItem(lunch);
         }}
       >
         Almuerzo

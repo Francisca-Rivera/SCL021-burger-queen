@@ -36,7 +36,7 @@
       "name": "Hamburguesa simple",
       "description": "Hamburguesa con tomate, lechuga, pepinillos, cebolla y queso",
       "price": "$10",
-      "image": "/img/Bueger-cat.png"
+      "image": "/img/Burger-cat.png"
     },
     {
       "id": 2,
